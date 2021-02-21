@@ -3,7 +3,7 @@ import RPi.GPIO as GPIO
 
 gpioPin = 14
 onTemp = 60
-offTemp = onTemp - 10
+offTemp = onTemp - 5
 everySec = 5
 
 def inititalize():
